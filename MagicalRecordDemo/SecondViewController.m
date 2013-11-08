@@ -38,6 +38,7 @@ static SecondViewController *singletonInstance;
     NSArray *allRecords = [DataInput MR_findAll];
     self.dataList = [[NSMutableArray alloc] initWithArray:allRecords];
 //    NSLog(@"All Records: %@",allRecords);
+    NSLog(@"----1----");
 }
 
 - (void)didReceiveMemoryWarning
